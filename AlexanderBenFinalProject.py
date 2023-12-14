@@ -103,6 +103,7 @@ if service == 'FedEx':
 
     for key in list(statusId):
         if key in trackInfo:
+            #status = statusId[key]
             print(statusId[key])
 
 
